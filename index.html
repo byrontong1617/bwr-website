@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Borneo Wild Realm 婆罗野境 | 源自雨林，守护野性</title>
+  <meta name="description" content="Borneo Wild Realm 婆罗野境 — 源自马来西亚婆罗洲雨林灵感的爬宠营养品牌。主营守宫钙粉、电解质补充液、冻干爬宠零食。马来西亚品牌，中国制造。">
+  <meta name="keywords" content="爬宠营养,守宫钙粉,爬宠钙粉,电解质,冻干零食,Borneo Wild Realm,婆罗野境,豹纹守宫">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='50' fill='%23E8A317'/><text x='50' y='62' text-anchor='middle' font-family='Inter,sans-serif' font-size='32' font-weight='700' fill='%231B4332'>BWR</text></svg>">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ========== 导航栏 ========== -->
+  <nav class="navbar">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">
+        <div class="nav-logo-icon">BWR</div>
+        <div class="nav-logo-text">
+          Borneo Wild Realm
+          <div class="cn">婆 罗 野 境</div>
+        </div>
+      </a>
+      <button class="nav-toggle" aria-label="菜单">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html">首页</a></li>
+        <li><a href="story.html">品牌故事</a></li>
+        <li><a href="products.html">产品中心</a></li>
+        <li><a href="contact.html">联系我们</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ========== Hero Banner ========== -->
+  <section class="hero">
+    <div class="hero-bg">
+      <!-- 雨林主题 SVG 插画 -->
+      <svg viewBox="0 0 1440 900" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#0D2818"/>
+            <stop offset="50%" stop-color="#1B4332"/>
+            <stop offset="100%" stop-color="#0D2818"/>
+          </linearGradient>
+          <linearGradient id="leafGrad" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="#2D6A4F"/>
+            <stop offset="100%" stop-color="#1B4332"/>
+          </linearGradient>
+          <radialGradient id="sunGlow" cx="0.5" cy="0.5" r="0.5">
+            <stop offset="0%" stop-color="#E8A317" stop-opacity="0.4"/>
+            <stop offset="100%" stop-color="#E8A317" stop-opacity="0"/>
+          </radialGradient>
+        </defs>
+        <!-- 背景渐变 -->
+        <rect width="1440" height="900" fill="url(#skyGrad)"/>
+        <!-- 阳光光晕 -->
+        <circle cx="720" cy="350" r="300" fill="url(#sunGlow)"/>
+        <!-- 远景山轮廓 -->
+        <path d="M0,600 Q200,500 400,560 T800,540 T1200,570 T1440,550 L1440,900 L0,900 Z" fill="#0D2818" opacity="0.6"/>
+        <path d="M0,680 Q300,600 600,650 T1200,640 T1440,660 L1440,900 L0,900 Z" fill="#0D2818" opacity="0.8"/>
+        <!-- 左侧大叶植物 -->
+        <g transform="translate(0,200)">
+          <path d="M-20,400 Q50,200 120,150 Q100,300 80,450 Q40,430 -20,400 Z" fill="url(#leafGrad)" opacity="0.7"/>
+          <path d="M-20,500 Q80,300 160,250 Q140,400 100,550 Q50,530 -20,500 Z" fill="url(#leafGrad)" opacity="0.6"/>
+          <path d="M20,600 Q120,400 200,360 Q180,500 140,650 Q80,630 20,600 Z" fill="url(#leafGrad)" opacity="0.5"/>
+        </g>
+        <!-- 右侧大叶植物 -->
+        <g transform="translate(1240,180)">
+          <path d="M200,400 Q130,200 60,150 Q80,300 100,450 Q140,430 200,400 Z" fill="url(#leafGrad)" opacity="0.7"/>
+          <path d="M200,500 Q120,300 40,250 Q60,400 100,550 Q150,530 200,500 Z" fill="url(#leafGrad)" opacity="0.6"/>
+          <path d="M180,600 Q100,400 20,360 Q40,500 80,650 Q130,630 180,600 Z" fill="url(#leafGrad)" opacity="0.5"/>
+        </g>
+        <!-- 树干 -->
+        <rect x="690" y="300" width="8" height="600" fill="#0D2818" opacity="0.5"/>
+        <rect x="745" y="350" width="6" height="550" fill="#0D2818" opacity="0.4"/>
+        <!-- 树叶冠 -->
+        <ellipse cx="694" cy="300" rx="80" ry="50" fill="#1B4332" opacity="0.5"/>
+        <ellipse cx="748" cy="340" rx="60" ry="40" fill="#1B4332" opacity="0.4"/>
+        <!-- 藤蔓 -->
+        <path d="M200,100 Q300,200 250,350 Q200,500 300,600" stroke="#2D6A4F" stroke-width="2" fill="none" opacity="0.3"/>
+        <path d="M1200,120 Q1100,250 1150,400 Q1200,550 1100,650" stroke="#2D6A4F" stroke-width="2" fill="none" opacity="0.3"/>
+        <!-- 漂浮的光斑 -->
+        <circle cx="400" cy="300" r="3" fill="#E8A317" opacity="0.4"/>
+        <circle cx="900" cy="250" r="2" fill="#E8A317" opacity="0.3"/>
+        <circle cx="600" cy="400" r="2" fill="#F4D06F" opacity="0.4"/>
+        <circle cx="1000" cy="350" r="3" fill="#E8A317" opacity="0.3"/>
+        <circle cx="300" cy="500" r="2" fill="#F4D06F" opacity="0.3"/>
+      </svg>
+    </div>
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+      <div class="hero-brand-mark">BWR</div>
+      <h1>Borneo Wild Realm</h1>
+      <div class="cn-name">婆 罗 野 境</div>
+      <div class="slogan">源自雨林，守护野性</div>
+      <div class="slogan-en">From the Wild, For the Wild</div>
+      <div class="hero-business-line">专注爬宠营养品 · 守宫钙粉 / 电解质 / 冻干零食</div>
+      <div class="hero-actions">
+        <a href="products.html" class="btn btn-primary">探索产品</a>
+        <a href="story.html" class="btn btn-outline">品牌故事</a>
+      </div>
+    </div>
+
+    <div class="hero-scroll">
+      <span>SCROLL</span>
+      <svg width="14" height="20" viewBox="0 0 14 20" fill="none"><path d="M7 1V18M7 18L1 12M7 18L13 12" stroke="currentColor" stroke-width="1.5"/></svg>
+    </div>
+  </section>
+
+  <!-- ========== 品牌简介 ========== -->
+  <section class="bg-white">
+    <div class="container">
+      <div class="brand-intro">
+        <div class="brand-intro-text fade-in">
+          <div class="section-label">ABOUT US / 关于我们</div>
+          <h2 class="section-title">把1.4亿年的雨林密码<br>装进每一罐营养品</h2>
+          <p>在婆罗洲热带雨林——地球上最古老的雨林——野生守宫会用上亿年进化出的本能，寻找富含矿物质的岩壁舔食。钙磷比恰好是 2:1。这不是巧合，这是一亿四千万年的进化答案。</p>
+          <p>2024年，我们在马来西亚古晋出发，研究婆罗洲原生爬行动物的自然饮食结构、矿物质摄入途径和钙磷代谢机制，最终把雨林亿万年演化出的营养密码，翻译成每一罐产品。</p>
+          <p>品牌注册于马来西亚，生产于中国——因为最好的故事在婆罗洲，最好的制造在中国。</p>
+          <div class="brand-intro-stats">
+            <div class="stat-item">
+              <div class="stat-num">1.4亿</div>
+              <div class="stat-label">年雨林演化</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-num">2:1</div>
+              <div class="stat-label">黄金钙磷比</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-num">800目</div>
+              <div class="stat-label">超细研磨</div>
+            </div>
+          </div>
+        </div>
+        <div class="brand-intro-visual fade-in fade-in-delay-1">
+          <!-- 雨林守宫 SVG 插画 -->
+          <svg viewBox="0 0 400 500" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#1B4332"/>
+                <stop offset="100%" stop-color="#0D2818"/>
+              </linearGradient>
+              <linearGradient id="geckoGrad" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0%" stop-color="#E8A317"/>
+                <stop offset="100%" stop-color="#D4A373"/>
+              </linearGradient>
+            </defs>
+            <rect width="400" height="500" fill="url(#bgGrad)"/>
+            <!-- 树干 -->
+            <rect x="160" y="0" width="80" height="500" fill="#0D2818" opacity="0.4"/>
+            <path d="M160,0 Q170,250 160,500" stroke="#2D6A4F" stroke-width="2" fill="none" opacity="0.3"/>
+            <path d="M240,0 Q230,250 240,500" stroke="#2D6A4F" stroke-width="2" fill="none" opacity="0.3"/>
+            <!-- 叶子 -->
+            <path d="M100,100 Q60,80 40,120 Q80,130 100,100 Z" fill="#2D6A4F" opacity="0.6"/>
+            <path d="M300,80 Q340,60 360,100 Q320,110 300,80 Z" fill="#2D6A4F" opacity="0.6"/>
+            <path d="M80,350 Q40,330 20,370 Q60,380 80,350 Z" fill="#2D6A4F" opacity="0.5"/>
+            <path d="M320,380 Q360,360 380,400 Q340,410 320,380 Z" fill="#2D6A4F" opacity="0.5"/>
+            <!-- 守宫身体 -->
+            <g transform="translate(200,220)">
+              <!-- 身体 -->
+              <ellipse cx="0" cy="0" rx="35" ry="18" fill="url(#geckoGrad)" transform="rotate(-15)"/>
+              <!-- 头部 -->
+              <ellipse cx="-30" cy="-8" rx="18" ry="14" fill="url(#geckoGrad)" transform="rotate(-15 -30 -8)"/>
+              <!-- 眼睛 -->
+              <circle cx="-40" cy="-12" r="4" fill="#0D2818"/>
+              <circle cx="-39" cy="-13" r="1.5" fill="#F4D06F"/>
+              <!-- 尾巴 -->
+              <path d="M30,-5 Q70,-20 90,-50 Q100,-65 95,-75" stroke="url(#geckoGrad)" stroke-width="10" fill="none" stroke-linecap="round"/>
+              <!-- 腿 -->
+              <path d="M-15,10 L-25,30 L-20,32" stroke="url(#geckoGrad)" stroke-width="6" fill="none" stroke-linecap="round"/>
+              <path d="M10,12 L5,35 L10,37" stroke="url(#geckoGrad)" stroke-width="6" fill="none" stroke-linecap="round"/>
+              <path d="M-25,-15 L-40,-30 L-35,-33" stroke="url(#geckoGrad)" stroke-width="5" fill="none" stroke-linecap="round"/>
+              <path d="M20,-12 L30,-30 L25,-33" stroke="url(#geckoGrad)" stroke-width="5" fill="none" stroke-linecap="round"/>
+              <!-- 斑点 -->
+              <circle cx="-10" cy="-2" r="2" fill="#0D2818" opacity="0.3"/>
+              <circle cx="5" cy="3" r="2" fill="#0D2818" opacity="0.3"/>
+              <circle cx="15" cy="-5" r="1.5" fill="#0D2818" opacity="0.3"/>
+            </g>
+            <!-- 光斑 -->
+            <circle cx="120" cy="150" r="3" fill="#E8A317" opacity="0.4"/>
+            <circle cx="280" cy="120" r="2" fill="#F4D06F" opacity="0.5"/>
+            <circle cx="320" cy="300" r="2" fill="#E8A317" opacity="0.3"/>
+            <!-- 品牌标识 -->
+            <text x="200" y="470" text-anchor="middle" font-family="Inter,sans-serif" font-size="10" fill="rgba(255,255,255,0.3)" letter-spacing="3">BORNEO WILD REALM</text>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== 新品轮播 ========== -->
+  <section class="bg-limestone">
+    <div class="container">
+      <div class="text-center fade-in" style="margin-bottom:48px;">
+        <div class="section-label">NEW ARRIVALS / 新品上市</div>
+        <h2 class="section-title">雨林配方新品</h2>
+        <p class="section-subtitle" style="margin:0 auto 0;">灵感来源于婆罗洲野生爬行动物的自然营养研究</p>
+      </div>
+
+      <div class="product-carousel fade-in">
+        <button class="carousel-prev" aria-label="上一个">&#10094;</button>
+        <button class="carousel-next" aria-label="下一个">&#10095;</button>
+        <div class="carousel-viewport">
+          <div class="carousel-track">
+            <!-- 轮播内容由 JS 动态渲染 -->
+          </div>
+        </div>
+        <div class="carousel-dots">
+          <!-- 圆点由 JS 动态生成 -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== 品牌三大支柱 ========== -->
+  <section class="bg-white">
+    <div class="container">
+      <div class="text-center fade-in" style="margin-bottom:48px;">
+        <div class="section-label">BRAND PILLARS / 品牌支柱</div>
+        <h2 class="section-title">为什么选择 Borneo Wild Realm</h2>
+      </div>
+      <div class="pillars-grid">
+        <div class="pillar-card fade-in">
+          <div class="pillar-icon">R</div>
+          <h3>雨林原产地</h3>
+          <p>品牌注册于马来西亚，婆罗洲为品牌精神原点。研究原生爬行动物的自然饮食结构与矿物质获取方式，将1.4亿年雨林生态的自然智慧转化为科学配方。</p>
+        </div>
+        <div class="pillar-card fade-in fade-in-delay-1">
+          <div class="pillar-icon" style="background:var(--bw-amber-pale);color:var(--bw-amber);">S</div>
+          <h3>科学营养力</h3>
+          <p>不做"讲故事"的营销品牌，做"有科学"的营养品牌。钙磷比、维生素D3含量等核心指标严格对标国际标准，每批次产品第三方检测，报告公开可查。</p>
+        </div>
+        <div class="pillar-card fade-in fade-in-delay-2">
+          <div class="pillar-icon" style="background:#F0E6D9;color:var(--bw-earth);">W</div>
+          <h3>专业守护力</h3>
+          <p>我们不只是卖产品，更是爬宠饲养者的长期伙伴。提供不同物种的定制营养方案，建立爬宠营养知识库，从第一勺钙粉到每一次蜕皮，始终守护。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== 品牌宣言 CTA ========== -->
+  <section class="bg-rainforest">
+    <div class="container-sm text-center fade-in">
+      <div class="section-label" style="color:var(--bw-amber);">BRAND MANIFESTO / 品牌宣言</div>
+      <h2 class="section-title" style="margin-bottom:24px;">爬宠不是猫狗<br>它们只会默默忍受</h2>
+      <p style="font-size:15px;color:rgba(255,255,255,0.7);line-height:2;margin-bottom:16px;">
+        它们不会用叫声告诉你哪里不舒服，不会用眼神表达营养缺乏，不会主动寻找缺失的矿物质。
+      </p>
+      <p style="font-size:15px;color:rgba(255,255,255,0.7);line-height:2;margin-bottom:16px;">
+        在野外，它们有1.4亿年演化出的本能，会主动寻找需要的矿物质。<br>
+        但在饲养盒里，它们只能依赖你给的一切。
+      </p>
+      <p style="font-size:17px;color:var(--bw-amber-light);line-height:2;margin-bottom:32px;font-weight:500;">
+        所以你给的每一勺，都必须是对的。
+      </p>
+      <a href="story.html" class="btn btn-primary">了解完整品牌故事</a>
+    </div>
+  </section>
+
+  <!-- ========== 页脚 ========== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="nav-logo-text">
+            Borneo Wild Realm
+            <div class="cn" style="color:var(--bw-amber-light);letter-spacing:3px;font-size:11px;">婆 罗 野 境</div>
+          </div>
+          <p>源自马来西亚婆罗洲热带雨林灵感的爬宠营养品牌。以1.4亿年雨林生态的自然智慧，为每一只爬宠提供源自天然栖息地的精准营养。</p>
+          <div class="slogan">源自雨林，守护野性</div>
+        </div>
+        <div class="footer-col">
+          <h4>导航</h4>
+          <ul>
+            <li><a href="index.html">首页</a></li>
+            <li><a href="story.html">品牌故事</a></li>
+            <li><a href="products.html">产品中心</a></li>
+            <li><a href="contact.html">联系我们</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>产品</h4>
+          <ul>
+            <li><a href="products.html">守宫钙粉</a></li>
+            <li><a href="products.html">电解质补充液</a></li>
+            <li><a href="products.html">冻干辅食</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>联系方式</h4>
+          <div class="contact-item">
+            <strong>品牌注册地</strong><br>马来西亚
+          </div>
+          <div class="contact-item" style="margin-top:10px;">
+            <strong>生产地</strong><br>中国
+          </div>
+          <div class="contact-item" style="margin-top:10px;">
+            <strong>商务合作</strong><br>byrontong@bwr.com
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 Borneo Wild Realm. All rights reserved.</span>
+        <span class="brand-line">马来西亚品牌 · 中国制造 · 婆罗洲雨林灵感</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/products.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

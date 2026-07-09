@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>产品中心 | Borneo Wild Realm 婆罗野境</title>
+  <meta name="description" content="Borneo Wild Realm 产品中心 — 守宫钙粉、电解质补充液、冻干爬宠零食。雨林配方灵感，科学营养力，为每一只爬宠提供源自天然栖息地的精准营养。">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='50' fill='%23E8A317'/><text x='50' y='62' text-anchor='middle' font-family='Inter,sans-serif' font-size='32' font-weight='700' fill='%231B4332'>BWR</text></svg>">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ========== 导航栏 ========== -->
+  <nav class="navbar">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">
+        <div class="nav-logo-icon">BWR</div>
+        <div class="nav-logo-text">
+          Borneo Wild Realm
+          <div class="cn">婆 罗 野 境</div>
+        </div>
+      </a>
+      <button class="nav-toggle" aria-label="菜单">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html">首页</a></li>
+        <li><a href="story.html">品牌故事</a></li>
+        <li><a href="products.html">产品中心</a></li>
+        <li><a href="contact.html">联系我们</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ========== 产品页 Hero ========== -->
+  <section class="products-hero">
+    <div class="container">
+      <div class="section-label">PRODUCTS / 产品中心</div>
+      <h1>雨林配方，进化答案</h1>
+      <p>每一款产品都源自对婆罗洲野生爬行动物自然营养结构的认真研究。<br>从钙粉到冻干零食，为你的爬宠提供源自天然栖息地的精准营养。</p>
+    </div>
+  </section>
+
+  <!-- ========== 产品列表（JS 动态渲染） ========== -->
+  <section class="bg-limestone">
+    <div class="container">
+      <!--
+        产品数据在 js/products.js 中定义
+        后期修改产品图文只需编辑该文件即可
+        添加 imageSvg 字段可替换为自定义 SVG 或图片路径
+      -->
+      <div id="product-grid">
+        <!-- 由 main.js 中的 renderProducts() 动态填充 -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== 使用指南 ========== -->
+  <section class="bg-white">
+    <div class="container">
+      <div class="text-center fade-in" style="margin-bottom:48px;">
+        <div class="section-label">FEEDING GUIDE / 使用指南</div>
+        <h2 class="section-title">怎么喂最有效</h2>
+        <p class="section-subtitle" style="margin:0 auto;">
+          正确的喂食方式，让每一勺营养都被充分吸收。
+        </p>
+      </div>
+
+      <div class="philosophy-grid" style="max-width:900px;margin:0 auto;">
+        <div class="philosophy-card fade-in">
+          <div class="ph-num">Step 1</div>
+          <h3>钙粉裹虫</h3>
+          <p>将活体饲料（蟋蟀/蟑螂/面包虫）放入容器，取适量钙粉倒入，轻摇使钙粉均匀附着。建议30秒内喂食，确保钙粉不脱落。也可直接撒在果泥/肉泥表面喂食。</p>
+        </div>
+        <div class="philosophy-card fade-in fade-in-delay-1">
+          <div class="ph-num">Step 2</div>
+          <h3>喂食频率</h3>
+          <p>幼体/亚成体：每次喂食均裹钙粉。成体：每周2-3次。孕期母体：每次喂食均裹钙粉 + 额外补充D3。不同生长阶段，钙需求差异显著。</p>
+        </div>
+        <div class="philosophy-card fade-in fade-in-delay-2">
+          <div class="ph-num">Step 3</div>
+          <h3>D3 选择</h3>
+          <p>有UVB灯 → 选不含D3的纯钙版。没UVB或UVB不足 → 选含D3版。D3帮助钙吸收，但过量会中毒，切勿盲目补充。按饲养环境选择最合适的版本。</p>
+        </div>
+        <div class="philosophy-card fade-in fade-in-delay-3">
+          <div class="ph-num">Step 4</div>
+          <h3>不同物种</h3>
+          <p>守宫：每次喂食裹钙。蜥蜴（鬃狮/蓝舌）：每周3-4次。龟类：幼龟每次，成龟每周2次。蛇类：视情况少量补充。不同物种需求不同，请针对性补充。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== 品牌信任 CTA ========== -->
+  <section class="bg-rainforest">
+    <div class="container-sm text-center fade-in">
+      <div class="section-label" style="color:var(--bw-amber);">TRUST / 品质承诺</div>
+      <h2 class="section-title" style="margin-bottom:24px;">成分透明，检测可查</h2>
+      <p style="font-size:15px;color:rgba(255,255,255,0.7);line-height:2;margin-bottom:32px;">
+        天然碳酸钙，钙磷比2:1，800目超细研磨。<br>
+        每批次第三方检测，报告公开可查。<br>
+        马来西亚品牌，中国制造，中马双标准品控。
+      </p>
+      <a href="contact.html" class="btn btn-primary">咨询采购 / 合作</a>
+    </div>
+  </section>
+
+  <!-- ========== 页脚 ========== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="nav-logo-text">
+            Borneo Wild Realm
+            <div class="cn" style="color:var(--bw-amber-light);letter-spacing:3px;font-size:11px;">婆 罗 野 境</div>
+          </div>
+          <p>源自马来西亚婆罗洲热带雨林灵感的爬宠营养品牌。以1.4亿年雨林生态的自然智慧，为每一只爬宠提供源自天然栖息地的精准营养。</p>
+          <div class="slogan">源自雨林，守护野性</div>
+        </div>
+        <div class="footer-col">
+          <h4>导航</h4>
+          <ul>
+            <li><a href="index.html">首页</a></li>
+            <li><a href="story.html">品牌故事</a></li>
+            <li><a href="products.html">产品中心</a></li>
+            <li><a href="contact.html">联系我们</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>产品</h4>
+          <ul>
+            <li><a href="products.html">守宫钙粉</a></li>
+            <li><a href="products.html">电解质补充液</a></li>
+            <li><a href="products.html">冻干辅食</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>联系方式</h4>
+          <div class="contact-item">
+            <strong>品牌注册地</strong><br>马来西亚
+          </div>
+          <div class="contact-item" style="margin-top:10px;">
+            <strong>生产地</strong><br>中国
+          </div>
+          <div class="contact-item" style="margin-top:10px;">
+            <strong>商务合作</strong><br>byrontong@bwr.com
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 Borneo Wild Realm. All rights reserved.</span>
+        <span class="brand-line">马来西亚品牌 · 中国制造 · 婆罗洲雨林灵感</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/products.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
