@@ -167,4 +167,82 @@ var BWR_PRODUCTS = [
     ],
     reptiles: ['守宫', '蜥蜴', '蛙类', '小型爬宠']
   }
+  /* ========== 爬宠垫材系列 ========== */
+  {
+    name: '森林地表垫材',
+    tagline: '模拟原生落叶层，还原雨林地表的呼吸感',
+    desc: '以婆罗洲雨林落叶层生态为灵感，精选杉木纤维经发酵处理，质地疏松透气，保湿性能优异。模拟野生爬宠栖息地的自然地表结构，为守宫、蜥蜴、陆龟等提供贴近原生的环境基质。',
+    shortDesc: '杉木纤维发酵 · 保湿透气 · 模拟雨林落叶层 · 4L大容量',
+    category: 'substrate',
+    featured: true,
+    badge: 'RAINFOREST BEDDING',
+    image: 'images/forest-floor-substrate.png',
+    specs: [
+      { label: '主要成分', value: '杉木纤维发酵处理' },
+      { label: '净含量', value: '4L/袋' },
+      { label: '适用环境', value: '雨林/半雨林型' },
+      { label: '保湿性', value: '优异' },
+      { label: '透气性', value: '良好' },
+      { label: '适用物种', value: '守宫/蜥蜴/陆龟' }
+    ],
+    reptiles: ['守宫', '蜥蜴', '陆龟', '蛇类']
+  },
+  {
+    name: '松树皮垫材',
+    tagline: '天然松树皮高温灭菌，干爽洁净的爬行基底',
+    desc: '精选天然松树皮，经高温灭菌处理，去除杂菌与虫害。颗粒结构稳定不易粉化，干爽透气适合干燥环境饲养需求。为守宫、蜥蜴、蛇类等爬宠提供清洁舒适的栖息基底。',
+    shortDesc: '天然松树皮 · 高温灭菌 · 干爽透气 · 不易粉化 · 4L',
+    category: 'substrate',
+    featured: true,
+    badge: 'DRY BEDDING',
+    image: 'images/pine-bark-substrate.png',
+    specs: [
+      { label: '主要成分', value: '天然松树皮高温灭菌' },
+      { label: '净含量', value: '4L/袋' },
+      { label: '适用环境', value: '干旱/半干旱型' },
+      { label: '干爽度', value: '高' },
+      { label: '粉化率', value: '低' },
+      { label: '适用物种', value: '守宫/蜥蜴/蛇类' }
+    ],
+    reptiles: ['守宫', '蜥蜴', '蛇类', '陆龟']
+  },
+  {
+    name: '雨林地表垫材',
+    tagline: '椰壳土·腐殖土·树皮落叶，复刻真实雨林地表',
+    desc: '以婆罗洲雨林地表为原型，复配椰壳土、腐殖土与天然树皮落叶，构建多层结构的雨林地表环境。上层落叶层模拟自然腐殖质，下层椰壳土提供稳定保湿基底，适合高湿度环境需求物种。',
+    shortDesc: '椰壳土+腐殖土+树皮落叶 · 多层结构 · 高保湿 · 4L',
+    category: 'substrate',
+    featured: false,
+    badge: 'RAINFOREST MIX',
+    image: 'images/rainforest-floor-substrate.png',
+    specs: [
+      { label: '主要成分', value: '椰壳土·腐殖土·树皮落叶' },
+      { label: '净含量', value: '4L/袋' },
+      { label: '适用环境', value: '高湿度雨林型' },
+      { label: '结构层次', value: '双层复合' },
+      { label: '保湿性', value: '极强' },
+      { label: '适用物种', value: '雨林型守宫/蜥蜴/蛙类' }
+    ],
+    reptiles: ['守宫', '蜥蜴', '蛙类', '蛇类']
+  },
+  {
+    name: '玉米芯垫材',
+    tagline: '天然玉米芯干燥处理，温和无刺激的洁净垫材',
+    desc: '选用天然玉米芯经干燥处理，颗粒圆润无尖锐棱角，不易误食且安全温和。吸湿除臭性能良好，适合对环境清洁度要求较高的爬宠饲养场景。经济实用，更换便捷。',
+    shortDesc: '天然玉米芯 · 干燥处理 · 温和安全 · 吸湿除臭 · 4L',
+    category: 'substrate',
+    featured: false,
+    badge: 'CORN BEDDING',
+    image: 'images/corn-cob-substrate.png',
+    specs: [
+      { label: '主要成分', value: '天然玉米芯干燥处理' },
+      { label: '净含量', value: '4L/袋' },
+      { label: '适用环境', value: '通用型' },
+      { label: '安全性', value: '高（圆润无棱角）' },
+      { label: '除臭性', value: '良好' },
+      { label: '适用物种', value: '守宫/蜥蜴/蛇类/陆龟' }
+    ],
+    reptiles: ['守宫', '蜥蜴', '蛇类', '陆龟']
+  }
+
 ];

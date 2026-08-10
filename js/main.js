@@ -354,7 +354,8 @@ function getCategoryName(cat) {
     'vitamin': '维生素系列',
     'paste': '营养膏系列',
     'probiotics': '益生菌系列',
-    'multivitamin': '综合营养系列'
+    'multivitamin': '综合营养系列',
+    'substrate': '爬宠垫材系列'
   };
   return names[cat] || cat;
 }
@@ -367,7 +368,8 @@ function getCategoryDesc(cat) {
     'vitamin': '雨林四季均衡配方，全面维生素与微量元素',
     'paste': '浓缩雨林精华，高适口性即食营养',
     'probiotics': '复合活菌配方，守护爬宠肠道菌群平衡',
-    'multivitamin': '多维营养均衡，骨骼养护与日常补充'
+    'multivitamin': '多维营养均衡，骨骼养护与日常补充',
+    'substrate': '以婆罗洲雨林原生栖息地为灵感，还原自然地表环境'
   };
   return descs[cat] || '';
 }
@@ -385,7 +387,8 @@ function getProductPlaceholder(product) {
     'vitamin': { bg: '#0D2818', accent: '#E8A317', label: 'V' },
     'paste': { bg: '#2C2C2A', accent: '#D4A373', label: 'N+' },
     'probiotics': { bg: '#1B4332', accent: '#E8A317', label: 'P+' },
-    'multivitamin': { bg: '#0D2818', accent: '#E8A317', label: 'M+' }
+    'multivitamin': { bg: '#0D2818', accent: '#E8A317', label: 'M+' },
+    'substrate': { bg: '#5D3A1A', accent: '#D4A373', label: 'SB' }
   };
   var c = colors[product.category] || colors['calcium'];
   return '<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" class="product-svg">' +
