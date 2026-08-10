@@ -16,7 +16,7 @@ var BWR_PRODUCTS = [
     category: 'substrate',
     featured: true,
     badge: 'RAINFOREST BEDDING',
-    image: 'images/forest-floor-substrate.png',
+    image: 'images/forest-floor-substrate.png?v=2',
     specs: [
       { label: '主要成分', value: '杉木纤维发酵处理' },
       { label: '净含量', value: '4L/袋' },
@@ -35,7 +35,7 @@ var BWR_PRODUCTS = [
     category: 'substrate',
     featured: true,
     badge: 'DRY BEDDING',
-    image: 'images/pine-bark-substrate.png',
+    image: 'images/pine-bark-substrate.png?v=2',
     specs: [
       { label: '主要成分', value: '天然松树皮高温灭菌' },
       { label: '净含量', value: '4L/袋' },
@@ -54,7 +54,7 @@ var BWR_PRODUCTS = [
     category: 'substrate',
     featured: false,
     badge: 'RAINFOREST MIX',
-    image: 'images/rainforest-floor-substrate.png',
+    image: 'images/rainforest-floor-substrate.png?v=2',
     specs: [
       { label: '主要成分', value: '椰壳土·腐殖土·树皮落叶' },
       { label: '净含量', value: '4L/袋' },
@@ -73,7 +73,7 @@ var BWR_PRODUCTS = [
     category: 'substrate',
     featured: false,
     badge: 'CORN BEDDING',
-    image: 'images/corn-cob-substrate.png',
+    image: 'images/corn-cob-substrate.png?v=2',
     specs: [
       { label: '主要成分', value: '天然玉米芯干燥处理' },
       { label: '净含量', value: '4L/袋' },
@@ -94,7 +94,7 @@ var BWR_PRODUCTS = [
     category: 'calcium',
     featured: true,
     badge: 'BORNEO INSPIRED',
-    image: 'images/calcium.png',
+    image: 'images/calcium.png?v=2',
     specs: [
       { label: '钙含量', value: '≥38%' },
       { label: '钙磷比', value: '≈2:1' },
@@ -113,7 +113,7 @@ var BWR_PRODUCTS = [
     category: 'calcium',
     featured: true,
     badge: 'PURE CALCIUM',
-    image: 'images/calcium-no-d3.png',
+    image: 'images/calcium-no-d3.png?v=2',
     specs: [
       { label: '钙含量', value: '≥38%' },
       { label: '钙磷比', value: '≈2:1' },
@@ -134,7 +134,7 @@ var BWR_PRODUCTS = [
     category: 'electrolyte',
     featured: true,
     badge: 'HYDRATION+',
-    image: 'images/electrolyte.png',
+    image: 'images/electrolyte.png?v=2',
     specs: [
       { label: '钠(Na)', value: '1200mg/L' },
       { label: '钾(K)', value: '800mg/L' },
@@ -155,7 +155,7 @@ var BWR_PRODUCTS = [
     category: 'probiotics',
     featured: true,
     badge: 'GUT CARE',
-    image: 'images/probiotics.png',
+    image: 'images/probiotics.png?v=2',
     specs: [
       { label: '活菌含量', value: '≥10⁸ CFU/g' },
       { label: '菌株数', value: '5种复合' },
@@ -176,7 +176,7 @@ var BWR_PRODUCTS = [
     category: 'multivitamin',
     featured: true,
     badge: 'MULTIVITAMIN+',
-    image: 'images/multivitamin.png',
+    image: 'images/multivitamin.png?v=2',
     specs: [
       { label: '维生素A', value: '50000IU/kg' },
       { label: '维生素D3', value: '10000IU/kg' },
@@ -197,7 +197,7 @@ var BWR_PRODUCTS = [
     category: 'freeze-dried',
     featured: false,
     badge: 'FREEZE-DRIED',
-    image: 'images/freeze-dried-cricket.png',
+    image: 'images/freeze-dried-cricket.png?v=2',
     specs: [
       { label: '粗蛋白', value: '≥60%' },
       { label: '粗脂肪', value: '≥15%' },
@@ -216,7 +216,7 @@ var BWR_PRODUCTS = [
     category: 'freeze-dried',
     featured: false,
     badge: 'FREEZE-DRIED',
-    image: 'images/freeze-dried-mealworm.png',
+    image: 'images/freeze-dried-mealworm.png?v=2',
     specs: [
       { label: '粗蛋白', value: '≥50%' },
       { label: '粗脂肪', value: '≥25%' },
@@ -234,7 +234,7 @@ var BWR_PRODUCTS = [
     category: 'freeze-dried',
     featured: false,
     badge: 'FREEZE-DRIED',
-    image: 'images/freeze-dried-dubia.png',
+    image: 'images/freeze-dried-dubia.png?v=2',
     specs: [
       { label: '粗蛋白', value: '≥55%' },
       { label: '粗脂肪', value: '≥20%' },
